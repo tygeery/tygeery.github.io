@@ -1,5 +1,82 @@
 body {
-    background-image: url("img/IMG_0571.JPG");
+}
+
+.row{
+  margin: 0px !important;
+}
+
+#homePageWrapper{
+    background-image: url("img/IMG_0571.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    background-position: center center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
+}
+
+.homeInner{
+    height: 550px;
+    display: table;
+    margin: 0 auto;
+}
+
+.headlineTextWrapper{
+    max-width: 1080px;
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.headlineTitle{
+    text-transform: none;
+    font-family: "Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 700;
+    line-height: 1.4em;
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    max-width: 750px;
+    padding: 0 30px;
+}
+
+.headlineText{
+    max-width: 750px;
+    margin: 10px auto 80px auto;
+    font-family: "Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    padding-top: 0;
+    letter-spacing: 0.01em;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.featuredItem{
+  padding: 35px 0;
+  position: relative;
+}
+
+.featuredImg {
+  margin: 0 auto;
+}
+
+.featuredText{
+  margin-top: 35px;
+}
+
+.featuredText h2{
+  font-family: "Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #515356;
+  margin-bottom: 20px;
+}
+
+.featuredText p{
+  font-family: "Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
 }
