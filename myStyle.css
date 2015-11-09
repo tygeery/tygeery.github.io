@@ -79,3 +79,14 @@ body {
   font-weight: 400;
   color: #999;
 }
+
+#defualtFooter{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 5px;
+}
