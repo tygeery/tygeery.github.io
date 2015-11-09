@@ -105,7 +105,7 @@ body {
     line-height: 1.4em;
     display: inline-block;
     overflow: hidden;
-    color: #fff;
+    color: #9d9d9d;
     max-width: 750px;
     padding: 0 30px;
 
@@ -119,5 +119,5 @@ body {
 }
 
 .footerText a{
-  color:white;
+  color:#9d9d9d;
 }
